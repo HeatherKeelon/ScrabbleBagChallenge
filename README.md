@@ -1,6 +1,6 @@
-         Each tile in scrabble has a letter, and a frequency of that tile for a total of 100 tiles.
-         The exception to this are the blank tiles, which are represented by an underscore.
-         Any tiles that have already been used are represented by a string of uppercase letters.
+         Simulate drawing tiles from a scrable bag. Each tile in scrabble has a letter, and a frequency
+         of that tile for a total of 100 tiles. The exception to this are the blank tiles, which are
+         represented by an underscore.
 
          Distrubution of tiles can be found at: http://scrabblewizard.com/scrabble-tile-distribution/
 
@@ -18,4 +18,5 @@
          1: B, C, J, K, M, Q, Y, Z, _
          0: X
 
-         If an attempt is made to withdraw tiles that are no longer there, an error message needs to be sent.
+         If an attempt is made to withdraw tiles that are no longer there, an error message needs to be sent. Removing
+         a tile from the bag subtracts a random tile, and removes it from the total.
